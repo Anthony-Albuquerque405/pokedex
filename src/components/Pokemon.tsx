@@ -5,7 +5,7 @@ const Pokemon = async () => {
   const data = await api.getAllPokemon();
 
   return (
-    <div className="flex flex-wrap justify-center gap-6 mt-10 px-4">
+    <div className="flex flex-wrap justify-center gap-6 mt-10 mb-10 px-4">
       {data.results.map((pokemon) => {
         const id = pokemon.url.split("/")[6];
 
