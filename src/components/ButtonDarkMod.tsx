@@ -30,7 +30,18 @@ const ButtonDarkMod = () => {
       setDarkMod(true);
     }
   };
-  return <Switch checked={darkMod} onCheckedChange={togleeDakMod}></Switch>;
+  return (
+    <div className="flex items-center gap-3 p-2 rounded-lg">
+      <Sun className="text-yellow-500 transition-transform duration-300 hover:scale-110" />
+      <Switch
+        checked={darkMod}
+        onCheckedChange={togleeDakMod}
+        className="data-[state=checked]:bg-gray-700 data-[state=unchecked]:bg-yellow-400 
+                 relative inline-flex h-6 w-12 items-center rounded-full transition-colors duration-300"
+      ></Switch>
+      <Moon className="text-blue-400 transition-transform duration-300 hover:scale-110" />
+    </div>
+  );
 };
 
 export default ButtonDarkMod;
