@@ -1,6 +1,12 @@
 const baseURL = "https://pokeapi.co/api/v2/";
 
 export async function getPokemonById(id: number): Promise<{
+  stats: {
+    base_stat: number;
+    effort: number;
+    stat: { name: string; url: string };
+  }[];
+  abilities: { slot: number; ability: { name: string; url: string } }[];
   name: string;
   weight: number;
   height: number;
