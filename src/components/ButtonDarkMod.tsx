@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Button } from "./ui/button";
+import { Switch } from "./ui/switch";
 
 const ButtonDarkMod = () => {
   const [darkMod, setDarkMod] = useState(false);
@@ -16,7 +17,7 @@ const ButtonDarkMod = () => {
       setDarkMod(true);
     }
   };
-  return <Button onClick={() => togleeDakMod()}>Dark-Mod</Button>;
+  return <Switch onClick={() => togleeDakMod()}>Dark-Mod</Switch>;
 };
 
 export default ButtonDarkMod;
