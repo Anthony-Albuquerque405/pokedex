@@ -5,7 +5,6 @@ const About = async () => {
                     dark:from-gray-900 dark:to-gray-800 
                     transition-colors duration-500 pt-6"
     >
-      {/* Header */}
       <div className="flex justify-center items-center gap-8 mb-10">
         <h1
           className="text-5xl italic font-extrabold 
@@ -21,8 +20,6 @@ const About = async () => {
                      hover:scale-110 transition-transform duration-500"
         ></div>
       </div>
-
-      {/* Pikachu */}
       <div className="flex justify-center items-center mb-12">
         <img
           src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
@@ -32,8 +29,6 @@ const About = async () => {
                      hover:scale-110 hover:rotate-3"
         />
       </div>
-
-      {/* Card */}
       <div
         className="max-w-3xl mx-auto p-10 
                    bg-white dark:bg-gray-800 
@@ -41,7 +36,6 @@ const About = async () => {
                    transition-colors duration-500 
                    hover:shadow-[0_10px_30px_rgba(0,0,0,0.3)]"
       >
-        {/* Objetivo */}
         <h2
           className="text-3xl font-bold 
                        bg-linear-to-r from-blue-600 to-purple-600 
@@ -57,8 +51,6 @@ const About = async () => {
           de dados e construção de aplicações que se comunicam com serviços
           externos.
         </p>
-
-        {/* Descrição */}
         <h2
           className="text-3xl font-bold 
                        bg-linear-to-r from-blue-600 to-purple-600 

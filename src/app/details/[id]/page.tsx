@@ -13,7 +13,6 @@ const Details = async ({ params }: ParamsProps) => {
 
   return (
     <div className="flex flex-col items-center mt-10 px-4">
-      {/* Nome */}
       <h1
         className="p-2 text-4xl font-extrabold capitalize 
                    bg-linear-to-r from-blue-600 to-purple-600 
@@ -23,16 +22,12 @@ const Details = async ({ params }: ParamsProps) => {
       >
         {data.name}
       </h1>
-
-      {/* Imagem */}
       <img
         className="w-56 h-56 mt-6 drop-shadow-xl 
                    transition-transform duration-500 hover:scale-110 hover:rotate-1"
         src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`}
         alt={data.name}
       />
-
-      {/* Card de detalhes */}
       <div
         className="flex flex-col mt-8 w-full max-w-lg 
                    border-2 border-gray-300 dark:border-gray-600 
@@ -52,7 +47,6 @@ const Details = async ({ params }: ParamsProps) => {
         </h2>
 
         <div className="flex flex-col p-6 space-y-6">
-          {/* Tipos */}
           <div>
             <h3 className="text-center font-semibold text-gray-800 dark:text-gray-200 mb-2">
               Tipo
@@ -71,8 +65,6 @@ const Details = async ({ params }: ParamsProps) => {
               ))}
             </ul>
           </div>
-
-          {/* Peso */}
           <div>
             <h3 className="text-center font-semibold text-gray-800 dark:text-gray-200 mb-2">
               Peso
@@ -81,8 +73,6 @@ const Details = async ({ params }: ParamsProps) => {
               {data.weight / 10} kg
             </p>
           </div>
-
-          {/* Habilidades */}
           <div>
             <h3 className="text-center font-semibold text-gray-800 dark:text-gray-200 mb-2">
               Habilidades
@@ -101,8 +91,6 @@ const Details = async ({ params }: ParamsProps) => {
               ))}
             </ul>
           </div>
-
-          {/* Status */}
           <div>
             <h3 className="text-center font-semibold text-gray-800 dark:text-gray-200 mb-4">
               Status
@@ -127,8 +115,6 @@ const Details = async ({ params }: ParamsProps) => {
           </div>
         </div>
       </div>
-
-      {/* Botão voltar */}
       <Link
         href="/"
         className="mt-8 inline-block px-8 py-3 text-sm font-semibold 
