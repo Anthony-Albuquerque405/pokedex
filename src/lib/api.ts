@@ -22,7 +22,7 @@ export async function getPokemonById(id: number): Promise<{
 }
 
 export async function getAllPokemon(
-  offset: number = 5,
+  offset: number = 0,
   limit: number = 580,
 ): Promise<{
   count: number;
