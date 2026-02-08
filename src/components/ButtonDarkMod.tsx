@@ -39,7 +39,7 @@ const ButtonDarkMod = () => {
         className="data-[state=checked]:bg-blue-700 data-[state=unchecked]:bg-yellow-400 
                  relative inline-flex h-6 w-12 items-center rounded-full transition-colors duration-300"
       ></Switch>
-      <Moon className="text-blue-400 transition-transform duration-300 hover:scale-110" />
+      <Moon className="text-red-400 transition-transform duration-300 hover:scale-110" />
     </div>
   );
 };
