@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📖 Pokedex
 
-## Getting Started
+Uma aplicação web desenvolvida com **Next.js**, **TypeScript** e **Tailwind CSS**, que consome a API de Pokémon para exibir informações de forma interativa e estilizada.  
+Deploy disponível em: [pokedex-six-psi-75.vercel.app](https://pokedex-six-psi-75.vercel.app/)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tecnologias utilizadas
+- **Next.js** – Framework React para aplicações web modernas
+- **TypeScript** – Tipagem estática para maior segurança e produtividade
+- **Tailwind CSS** – Estilização rápida e responsiva
+- **Vercel** – Plataforma de deploy e hospedagem
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🖼️ Imagens do Projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<img width="1882" height="959" alt="image" src="https://github.com/user-attachments/assets/c6c470fb-5a1d-4ace-a3b3-25fa4b033092" />
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+<img width="882" height="723" alt="image" src="https://github.com/user-attachments/assets/e8bc89e2-371b-48d3-b348-764e26abe41a" />
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img width="1056" height="846" alt="image" src="https://github.com/user-attachments/assets/9ef9e9b0-fa26-4d56-9f5d-e6750c96cf7c" />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✨ Funcionalidades
+- Listagem de Pokémon com imagens e informações básicas
+- Interface responsiva e moderna
+- Rodapé com informações de direitos autorais e links úteis
+- Deploy contínuo via Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+
+## 📜 Licença
+Este projeto é de código aberto e está sob a licença **MIT**.  
+Sinta-se livre para usar, modificar e contribuir!
+
